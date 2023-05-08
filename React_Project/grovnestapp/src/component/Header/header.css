@@ -1,0 +1,16 @@
+.container{
+    color: black;
+    background-color: blanchedalmond;
+    
+   
+}
+.ima{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    
+   
+   
+}

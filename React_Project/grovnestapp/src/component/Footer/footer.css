@@ -1,0 +1,14 @@
+.container_footer{
+    background-color: rgba(102, 102, 213, 0.667);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 0 auto 4rem;
+    list-style-type: none;
+    
+    
+    
+    
+
+}
