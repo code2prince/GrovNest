@@ -1,20 +1,23 @@
 import React from 'react';
 import './header.css';
 import IMG from '../../asserts/logo.png';
+import {AiOutlineMail} from 'react-icons/ai';
+import {CgProfile} from 'react-icons/cg';
 
 const Header = () => {
   return (
     <>
-    <div className='container'>
-      <div className='ima'>
+    <div className='header_container'> 
         
-        <img src={IMG} alt="header-img"/>
-        <h3>image</h3>
-        <h5>Home</h5>
-        <h6>profile</h6>
-      </div>
-     <h2>Welcome to ...</h2> 
-     
+          <div className='container_img'>
+            <img width={50} src={IMG} alt="header-img"/>
+          </div>
+          <div >Dashboard</div>
+          <nav className='nav'>
+          <a href='#'><AiOutlineMail/></a>
+          <a href='#'><CgProfile/></a>
+          </nav>
+        
     </div>
     
     </>
@@ -22,3 +25,4 @@ const Header = () => {
 }
 
 export default Header
+

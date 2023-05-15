@@ -1,16 +1,19 @@
-.container{
-    color: black;
-    background-color: blanchedalmond;
-    
-   
-}
-.ima{
-    background-color: aqua;
+
+.header_container{
+    background-color: rgb(169, 196, 223);
+    height:50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 3rem;
-    
-   
-   
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(red, green, blue, alpha);
+    text-decoration: none;
 }
+.nav{
+    display: flex;
+    column-gap: 2rem;
+}
+

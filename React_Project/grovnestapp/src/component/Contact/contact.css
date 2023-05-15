@@ -1,0 +1,26 @@
+.btn{
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color:rgb(101, 226, 43);
+    transition:1s;
+}
+
+.container_contact{
+    display: grid;
+    grid-template-columns:  13rem ;
+    background-color: rgb(30, 151, 211);
+    border-radius: 1rem;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container_contact:hover{
+    background-color: rgb(110, 167, 152);
+    
+    transition: 1s;
+}
