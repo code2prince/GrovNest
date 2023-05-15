@@ -3,13 +3,18 @@
 }
 
 .App-header {
-  background-color: #5f7ebc;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  
+
 }
+
+.slide{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+
 

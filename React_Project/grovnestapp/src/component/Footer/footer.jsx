@@ -2,9 +2,9 @@ import React from "react";
 import './footer.css';
 const footer=()=>{
 return (
-<footer>
-
-    <ul className="container_footer">
+<footer >
+<div className="footer">
+<ul className="container_footer">
         <li><a href='#'>Home</a></li>
         <li><a href='#'>About Us</a></li>
         <li><a href='#'>Contact</a></li>
@@ -14,6 +14,8 @@ return (
     <div className="footer_copyright">
         <small>&copy; G..... All rights reserved</small>
     </div>
+</div>
+    
 </footer>
 )
 }

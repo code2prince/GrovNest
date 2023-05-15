@@ -4,6 +4,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-bottom: 0 auto 4rem;
+    margin-bottom: 0 auto 1rem;
     list-style-type: none;
+}
+.footer{
+    background-color: aqua;
+    
 }

@@ -1,12 +1,13 @@
 
 .header_container{
     background-color: rgb(169, 196, 223);
+    /* background: transparent; */
     height:50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
     margin-top: 0px;
     padding: 4px;
     border-bottom: 1px solid rgba(red, green, blue, alpha);
@@ -16,4 +17,5 @@
     display: flex;
     column-gap: 2rem;
 }
+
 

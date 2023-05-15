@@ -1,0 +1,6 @@
+.grid-twenty-eighty {
+    display: grid;
+    grid-template-columns:20% 80%;
+    background-color: aquamarine;
+    border: 2px solid;
+  }
