@@ -6,6 +6,7 @@
     gap: 3rem;
     margin-bottom: 0 auto 1rem;
     list-style-type: none;
+    text-decoration: none;
 }
 .footer{
     background-color: aqua;

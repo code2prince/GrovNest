@@ -17,5 +17,17 @@
     display: flex;
     column-gap: 2rem;
 }
+.nav a{
+    color: rgb(29, 67, 204);
+    cursor: pointer;
+}
 
+.nav a:hover{
+    color:rgb(255, 217, 0)
+}
 
+.container_img{
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content max-content;
+}

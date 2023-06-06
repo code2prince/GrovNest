@@ -12,7 +12,7 @@ const App = () => {
         <Header/>
       </div>
       
-        <SideMenu/>
+      <SideMenu/>
       <Contact/>
           
         <Footer/>

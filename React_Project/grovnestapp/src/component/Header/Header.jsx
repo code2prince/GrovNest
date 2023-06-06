@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import IMG from '../../asserts/logo.png';
+import IMG from '../../asserts/grovnest logo.jpg';
 import { AiOutlineMail } from 'react-icons/ai';
 import { CgProfile } from 'react-icons/cg';
 import { BsBellFill } from 'react-icons/bs'
@@ -12,7 +12,7 @@ const Header = () => {
         <div className='container_img'>
           <img width={50} src={IMG} alt="header-img" />
         </div>
-        <div >Dashboard</div>
+        <div >Dashboard GrovNest</div>
         <nav className='nav'>
           <a href='#'><AiOutlineMail /></a>
           <a href='#'><CgProfile /></a>
