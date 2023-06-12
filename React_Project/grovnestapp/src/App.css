@@ -15,6 +15,11 @@
   display: grid;
   grid-template-columns: auto;
 }
+.ratio{
+  display:grid;
+  grid-template-columns: max-content auto;
+  grid-gap: 20px;
+}
 
 
 

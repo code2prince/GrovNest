@@ -1,7 +1,24 @@
 .grid-twenty-eighty {
- 
     justify-content: left;
     grid-template-columns:20% 80%;
-    background-color: aquamarine;
+    background-color: rgb(245, 245, 245);
     border: 2px solid;
+
+  }
+
+  .grid-twenty-eighty a{
+    text-decoration: none;
+    color: rgb(60, 60, 85);
+    cursor: pointer;
+  }
+
+  .grid-twenty-eighty a:hover{
+    color: rgb(60, 188, 227);
+  }
+
+  .counseling{
+    margin-top: 15px;
+    background-color: rgb(96, 175, 175);
+    display: grid;
+    grid-template-columns: auto auto;
   }

@@ -3,7 +3,7 @@ import Header from "./component/Header/Header";
 import Footer from "./component/Footer/footer";
 import Contact from "./component/Contact/contact";
 import SideMenu from './component/SideMenu/sideMenu';
-
+import Body from './component/body/body'
 import './App.css';
 const App = () => {
   return (
@@ -11,9 +11,12 @@ const App = () => {
       <div className='App-header'>
         <Header/>
       </div>
-      
-      <SideMenu/>
+      <div className='ratio'>
+        <SideMenu/>
+        <Body/>
+      </div>
       <Contact/>
+      
           
         <Footer/>
     </>

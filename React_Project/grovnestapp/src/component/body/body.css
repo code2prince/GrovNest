@@ -1,0 +1,35 @@
+.card{
+    background-color:rgb(227, 227, 227) ;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25% 25% auto;
+    margin-top: 20px;
+}
+.profile-header{
+    background-color: rgb(153, 50, 232);
+    color: aliceblue;
+    padding: 2.5px;
+}
+
+.profile{
+    background-color: aliceblue;
+}
+
+.topic-header{
+    background-color: rgb(115, 115, 223);
+    color: aliceblue;
+    padding: 2.5px;
+}
+
+.topic{
+    background-color: aliceblue;
+}
+
+.overview{
+    background-color: aliceblue;
+}
+.overview-header{
+    background-color: rgb(92, 161, 195);
+    color: aliceblue;
+    padding: 2.5px;
+}

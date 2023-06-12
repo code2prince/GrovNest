@@ -12,7 +12,7 @@ return (
     </ul>
    
     <div className="footer_copyright">
-        <small>&copy; G..... All rights reserved</small>
+        <small>&copy; GrovNest All rights reserved</small>
     </div>
 </div>
     

@@ -8,7 +8,22 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+
+.container_footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
 .footer{
     background-color: aqua;
+    justify-content: center;
     
+}
+
+.footer_copyright{
+    display: grid;
+    justify-content: center;
 }
