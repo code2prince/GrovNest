@@ -3,6 +3,9 @@ import '../body/body.css';
 import {AiOutlinePlusCircle} from 'react-icons/ai';
 // import Calendar from "./Calender/calender";
 import Calendar from "./Calender/calender";
+import Profile from "./studentProfile/profile/profile";
+import Guradian from "./studentProfile/Guradian/guradian";
+import Resource from "./studentProfile/Resource/resource";
 export default function (){
     return (
         <>
@@ -12,9 +15,16 @@ export default function (){
                 <div className="profile">
                     <div className="profile-header">Student's Profile <AiOutlinePlusCircle/></div>
                     <div>
-                        <div>Profile</div>
-                        <div>Guardian's</div>
-                        <div>Resources</div>
+                        <div className="profile_card">
+                            <Profile/>  
+                        </div>
+                        
+                        <div>
+                            <Guradian/>
+                        </div>
+                        <div>
+                            <Resource/>
+                        </div>
                     </div>
                 </div>
 

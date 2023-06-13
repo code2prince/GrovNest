@@ -33,3 +33,9 @@
     color: aliceblue;
     padding: 2.5px;
 }
+
+.profile_card{
+    margin-top: 10px;
+    background-color: rgb(203, 203, 203);
+    border: 1px solid #e6dddd;
+}
