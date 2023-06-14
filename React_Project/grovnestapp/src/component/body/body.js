@@ -6,6 +6,7 @@ import Calendar from "./Calender/calender";
 import Profile from "./studentProfile/profile/profile";
 import Guradian from "./studentProfile/Guradian/guradian";
 import Resource from "./studentProfile/Resource/resource";
+import Agenda from "./ongoingTopic/agenda";
 export default function (){
     return (
         <>
@@ -30,9 +31,12 @@ export default function (){
 
                 <div className="topic">
                     <div className="topic-header">Ongoing Topics <AiOutlinePlusCircle/></div>
-                    <div>Agenda (Student 1)</div>
-                    <div>Agenda (Student 2)</div>
-                    <div>Agenda (Student 3)</div>
+                    <div>
+                        <Agenda/>
+                        <Agenda/>
+                        <Agenda/>
+
+                    </div>
                 </div>
 
                 <div className="overview">

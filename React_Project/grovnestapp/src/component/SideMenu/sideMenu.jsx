@@ -15,7 +15,7 @@ const sideMenu = () => {
     <div className='grid-twenty-eighty'>
     
         <div className='counseling'>
-            <div><BsPerson/></div> 
+            <div className='person'><BsPerson/></div> 
             <div>
               <h4>Counseling</h4>
               <div>Category</div>

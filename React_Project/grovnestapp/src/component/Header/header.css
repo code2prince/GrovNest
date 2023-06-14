@@ -1,6 +1,6 @@
 
 .header_container{
-    background-color: rgb(99, 127, 155);
+    background-color: rgb(21, 27, 34);
     /* background: transparent; */
     height:50px;
     display: flex;
@@ -66,6 +66,7 @@
     background-color: #48596a;
     color: antiquewhite;
     border: 1px solid transparent;
+    cursor: pointer;
     padding: 0.375rem 0.75rem;
     margin-top: 0.15rem;
     font-size: 0.9rem;
@@ -75,4 +76,5 @@
 }
 .analysis{
     margin-top: 0.25rem;
+    color: rgb(187, 199, 210);
 }

@@ -2,7 +2,8 @@
     justify-content: left;
     grid-template-columns:20% 80%;
     background-color: rgb(245, 245, 245);
-    border: 2px solid;
+    border: 1.5px solid;
+
 
   }
 
@@ -17,8 +18,13 @@
   }
 
   .counseling{
-    margin-top: 15px;
-    background-color: rgb(96, 175, 175);
+   
+    background-color: rgb(250, 253, 253);
     display: grid;
     grid-template-columns: auto auto;
+    margin-bottom: 20px;
+  }
+
+  .person{
+    margin-top: 40px;
   }

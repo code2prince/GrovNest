@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import IMG from '../../asserts/grovnest logo.jpg';
+import IMG from '../../asserts/grovelogo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { CgProfile } from 'react-icons/cg';
 import { AiOutlineBell } from 'react-icons/ai'
@@ -11,7 +11,7 @@ const Header = () => {
       <div className='header_container'>
           <div className='container_img'>
             <div>
-              <img width={50} src={IMG} alt="header-img" />
+              <img width={100} src={IMG} alt="header-img" />
             </div>
             <div className='header_item'>
                 <div>
