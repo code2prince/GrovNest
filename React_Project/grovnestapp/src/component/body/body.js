@@ -7,6 +7,7 @@ import Profile from "./studentProfile/profile/profile";
 import Guradian from "./studentProfile/Guradian/guradian";
 import Resource from "./studentProfile/Resource/resource";
 import Agenda from "./ongoingTopic/agenda";
+import OverviewItem from "./overview/overviewItem";
 export default function (){
     return (
         <>
@@ -41,6 +42,7 @@ export default function (){
 
                 <div className="overview">
                     <div className="overview-header">Overview <AiOutlinePlusCircle/></div>
+                    <OverviewItem/>
                     <div>
                         <Calendar/>
                     </div>
