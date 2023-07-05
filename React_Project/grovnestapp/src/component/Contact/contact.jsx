@@ -1,8 +1,8 @@
 import React from "react";
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
-// import {BsWhatsapp} from 'react-icons/bs';
-import { RiMessengerLine } from 'react-icons/ri';
+import {BsWhatsapp} from 'react-icons/bs';
+//import { RiMessengerLine } from 'react-icons/ri';
 
 
 
@@ -21,19 +21,19 @@ const Contact = () => {
                         <a href='mailto:code2prince@gmail.com'>Send a message</a>
                     </article>
 
-                    <article className='contact__option'>
+                    {/* <article className='contact__option'>
                         <RiMessengerLine className='contact__option-icon' />
                         <h4>Messanger</h4>
                         <h5>GrovNest</h5>
                         <a href='https://m.me/pk.sharma.5070276'>Send a message</a>
-                    </article>
+                    </article> */}
 
-                            {/* <article className='contact__option'>
+                     <article className='contact__option'>
                     <BsWhatsapp className='contact__option-icon'/>
                     <h4>WhatsApp</h4>
                     <h5>+91 8873091666</h5>
                     <a href='https://api.whatsapp.com/send?phone=918873091666'>Send a message</a>
-                    </article> */}
+                    </article> 
                 </div>
 
                 <form className="form_container">
